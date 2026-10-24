@@ -1,0 +1,14 @@
+{
+  "port": 4530,
+  "timeoutMs": 300000,
+  "providers": {
+    "nvidia": { "type": "openai", "label": "NVIDIA NIM", "baseURL": "https://integrate.api.nvidia.com/v1", "apiKey": "" },
+    "openai": { "type": "openai", "label": "OpenAI", "baseURL": "https://api.openai.com/v1", "apiKey": "" },
+    "ollama": { "type": "openai", "label": "Ollama (local)", "baseURL": "http://127.0.0.1:11434/v1", "apiKey": "ollama" }
+  },
+  "routes": {
+    "sonnet": { "provider": "ollama", "model": "qwen2.5:3b" },
+    "opus": { "provider": "openai", "model": "gpt-4o" },
+    "fable": { "provider": "ollama", "model": "qwen2.5:3b" }
+  }
+}

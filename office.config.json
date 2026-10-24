@@ -1,0 +1,9 @@
+{
+  "name": "Pump.fun Trading Desk",
+  "brain": "./brain",
+  "port": 4520,
+  "model": "sonnet",
+  "mcp": { "allow": [], "deny": [], "departments": {} },
+  "tools": { "web": true, "browser": true },
+  "teams": { "enabled": true, "max": 4 }
+}

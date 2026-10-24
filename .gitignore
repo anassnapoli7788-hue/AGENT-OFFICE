@@ -1,0 +1,3 @@
+# Freebuff Desktop finds this folder's chats through project-id; do not edit or commit it
+/project-id
+/.gitignore
